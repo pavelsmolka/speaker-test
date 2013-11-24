@@ -95,9 +95,12 @@ var SampleApp = function() {
     self.createRoutes = function() {
         self.routes = { };
 
-        self.routes['/asciimo'] = function(req, res) {
-            var link = "http://i.imgur.com/kmbjB.png";
-            res.send("<html><body><img src='" + link + "'></body></html>");
+        self.routes['/speaker.js'] = function(req, res) {
+            res.sendfile('bower_components/speaker/speaker.js')
+        };
+
+        self.routes['/test.js'] = function(req, res) {
+            res.sendfile('bower_components/speaker/test.js')
         };
 
         self.routes['/'] = function(req, res) {

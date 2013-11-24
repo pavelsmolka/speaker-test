@@ -25,6 +25,8 @@
   },
 
   "dependencies": {
+    "express" : "*",
+    "fs" : "*"
   },
   "devDependencies": {},
   "bundleDependencies": [],

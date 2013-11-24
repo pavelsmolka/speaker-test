@@ -1,0 +1,14 @@
+{
+    "name": "speaker-app",
+    "version": "0.0.0",
+    "ignore": [
+        "**/.*",
+        "components"
+    ],
+
+    "dependencies": {
+        "speaker": "https://github.com/pavelsmolka/speaker.git"
+    }
+
+
+}
